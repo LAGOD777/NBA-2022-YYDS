@@ -6,12 +6,10 @@
 // icon-color: orange; icon-glyph: basketball-ball;
 
 /********************************************************
- * script     : NBA-MyTeam-Widget.js
-oWidgetapp, which shows
+ * script     : NBA-MyTeam-Widget.js  oWidgetapp, which shows
  *              the next games for your NBA team
- * author     : @thisisevanfox
- * support    : https://git.io/JtLOD
- * date       : 2022-11-08
+ * author     : @YYDS
+ * date       : 2022-11-10
  *******************************************************/
 
 /********************************************************
