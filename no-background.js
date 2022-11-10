@@ -7,52 +7,8 @@
 
 /* -----------------------------------------------
 Script      : no-background.js
-Author      : dev@supermamon.com
-Version     : 1.8.0
-Description :
-  A module to create illusions of transparent
-  backgrounds for Scriptable widgets
-Adapted from Max Zeryck's (@mzeryck) amazing 
-invisible widget shared on the Automtors discourse
-https://talk.automators.fm/t/widget-examples/7994/135
-Changelog   :
-v1.8.0
-- (new) BREAKING CHANGE: background assignments
-  are unique per device so that each device can
-  have it's own wallpaper. Run "Regenerate Slices"
-  on each device.
-  But, there's a bug the current Scriptable version 
-  where Device.name() returns the model instead.
-  So, the wallppapers actually can't be unique 
-  yet. Affects stable version 1.6.12 or beta 1.7 
-- (new) support for iPhone 14 Pro/Pro Max. 
-  Thank you @mzeryck & u/Senion-Ad-883
-v1.7.0
-- (new) support for iPhone 12 Mini. Thanks @blacksector
-v1.6.0
-- (new) `transparent` and `for` alias to `getSliceForWidget`
-- (new) merged `No Background Config` code to maintain 1 code
-- (new) auto-detect iCloud usage
-v1.5.0 
-- (update) iPhone 12 Pro Max compatibility
-v1.4.0 
-- (update) also prompt for setup on the getPathForSlice method
-v1.3.0 
-- (update) automativally prompt for setup when
-  slices are missing or if the widget's
-  position is not yet stored.
-v1.2.0
-- (new) applyTint method to simulate a 
-  semi-tranparent look
-v1.1.1
-- (fix) syntax error on generateSlices
-- (fix) incorrect iPhone 12 size
-v1.1.0
-- Support for iPhone 12 & 12 Pro
-v1.0.2
-- Typos on the documentation
-v1.0.1
-- Fix iamge does not exists issue
+* author     : @YYDS
+* date       : 2022-11-10
 ----------------------------------------------- */
 
 
